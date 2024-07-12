@@ -1,26 +1,38 @@
 products = [
     {
       "_id":1,
-      "productname": "Camera",
-      "category": "electronics",
-      "price": 150 
+      "productname": "Chair",
+      "category": "furniture",
+      "price": 90
     },
       {
       "_id":2,
-      "productname": "Laptop",
-      "category": "electronics",
-      "price": 500 
+      "productname": "Bed",
+      "category": "furniture",
+      "price": 500
     },
     {
       "_id":3,
-      "productname": "Headphone",
-      "category": "electronics",
-      "price": 78
+      "productname": "Desk",
+      "category": "furniture",
+      "price": 190
     },
       {
       "_id":4,
-      "productname": "Speaker",
-      "category": "electronics",
+      "productname": "Nightstand",
+      "category": "furniture",
+      "price": 54
+    },
+      {
+      "_id":5,
+      "productname": "Sofa",
+      "category": "furniture",
+      "price": 785
+    },
+      {
+      "_id":6,
+      "productname": "Closet",
+      "category": "furniture",
       "price": 90
     }
 ]
