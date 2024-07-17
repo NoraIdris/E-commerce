@@ -10,7 +10,7 @@ function Header() {
   <div className="container-fluid">
 
     <LinkContainer to="/">
-        <Nav.Link className="navbar-brand" >On Point </Nav.Link>
+        <Nav.Link className="navbar-brand" >Iké'hack</Nav.Link>
     </LinkContainer>
 
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
