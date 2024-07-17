@@ -3,7 +3,7 @@ products = [
       "_id":1,
       "productname": "Chair",
       "category": "furniture",
-      "price": 90
+      "price": 30
     },
       {
       "_id":2,
@@ -13,9 +13,9 @@ products = [
     },
     {
       "_id":3,
-      "productname": "Desk",
+      "productname": "Desk with Chair",
       "category": "furniture",
-      "price": 190
+      "price": 112
     },
       {
       "_id":4,

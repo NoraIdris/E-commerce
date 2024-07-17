@@ -15,7 +15,7 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            name='products',
+            name='Products',
             fields=[
                 ('productname', models.CharField(max_length=150)),
                 ('image', models.ImageField(blank=True, null=True, upload_to='')),
