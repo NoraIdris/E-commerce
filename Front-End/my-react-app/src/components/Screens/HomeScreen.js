@@ -8,7 +8,7 @@ const [Products, setProducts] = useState([])
 
 useEffect(() => {
   async function fetchProducts(){
-    const {data} = await axios.get('/api/Products/')
+    const {data} = await axios.get('/api/products/')
     setProducts(data)
   }
   fetchProducts()
@@ -23,10 +23,15 @@ useEffect(() => {
         <Row>
            {Products.map((product) =>(
               <Col key={product._id} sm={12} md={6} lg={4} xl={3}>
-                <img src="{product._image}" alt="" />
+                
+                <Card className="my-3 p-3 rounded">
+                <img src={product.image} alt="" />
+                </Card>
+                
                 <h3>{product.productname}</h3>
                 <h6>{product.category}</h6>
                 <p>{product.price}</p>
+                <p>{product.productinfo}</p>
               </Col>
            ))}
         </Row>
